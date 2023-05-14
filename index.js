@@ -6,7 +6,7 @@ document.querySelector('.slider-next').addEventListener('click', function(){
   if (offset > 1024) {
     offset = 0;
   }
-  sliderLine.styly.left = -offset + 'px';
+  sliderLine.style.left = -offset + 'px';
 });
 
 document.querySelector('.slider-prev').addEventListener('click', function(){
@@ -14,7 +14,8 @@ document.querySelector('.slider-prev').addEventListener('click', function(){
   if (offset < 0) {
     offset = 1024;
   }
-  sliderLine.styly.left = -offset + 'px';
+  sliderLine.style
+  .left = -offset + 'px';
 });
 
 
